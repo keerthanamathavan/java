@@ -7,7 +7,7 @@ class large
   {
      int num[]={20,70,10,5,60};
      int largest=num[0];
-     for(int i=0;i<num.lenght,i++)
+     for(int i=0;i<num.lenght;i++)
      {
         if(num[i]>largest)
         largest=num[i];
