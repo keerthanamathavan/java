@@ -5,9 +5,9 @@ class large
 {
   public static void main(String args[])
   {
-     int num[]={20,70,10,5,60};
+     int num[]=new int[]{20,70,10,5,60};
      int largest=num[0];
-     for(int i=0;i<num.lenght;i++)
+     for(int i=0;i<num.length;i++)
      {
         if(num[i]>largest)
         largest=num[i];
